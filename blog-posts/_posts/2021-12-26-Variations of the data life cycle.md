@@ -1,10 +1,15 @@
 ---
 layout: post
 title: Variations of the Data Life Cycle
-excerpt: A brief discussion on variations of the data Life cycle
+description: >
+  A brief discussion on variations of the data Life cycle.
+hide_image: false
+accent_color: '#4fb1ba'
+accent_image:
+  background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
+  overlay:    true
 
 ---
-
 
 
 Data isn't actually alive, but it does have a life cycle. **_How do data analysts bring data to life?_** Well, it starts with the right **_data analysis tool._** These include 
