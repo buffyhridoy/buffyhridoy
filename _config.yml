@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   erebus-shadow.github.io
+url:                   buffyhridoy.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -328,9 +328,9 @@ remote_theme: hydecorp/hydejack@v9.0.4
 
 # Used on index and about sites
 social:
-  name:                <Shahzaib> <Ahmed>
+  name:                <Mohammad> <Badhruddouza> <Khan>
   links:
-    - https://github.com/<HypertextAssassin0273>
+    - https://github.com/<buffyhridoy>
 
 
 # Jekyll Compose Defaults
