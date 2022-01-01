@@ -1,0 +1,102 @@
+basics:
+  name: "Mohammad Badhruddouza Khan"
+  label: "Undergraduate Student"
+  #picture: "/assets/icons/icon1.png"
+  email: "badhruddouza@gmail.com"
+  phone: "+880-1859-540433"
+  website: "https://buffyhridoy.github.io"
+ 
+  summary: >
+    I'm 3rd Biomedical Engineering Student at Khulna University of Engineering & Technology. <br><br>
+    I have been working on Machine Learning for 3 years and Data Analysis for 1 years. <br><br>
+    If you're interested in something within my skill-set, or would like to discuss something tech. related then, feel free to reach out.<br><br> 
+    I'd love to talk.<br><br>
+    
+    <i title="Download" class="icon-box-add faded"><strong>  :  </strong></i><a href="/assets/Resume.pdf" class="external"><strong>Resume</strong></a>
+    <br>
+    
+  location:
+    address: ""
+    postalCode: "9001"
+   # region: "North Nazimabad"
+    city: "Khulna"
+    countryCode: "BD"
+  profiles:
+    - network: "Github"
+      username: "buffyhridoy"
+      url: "https://github.com/buffyhridoy"
+    - network: "LinkedIn"
+      username: "Mohammad Badhruddouza Khan"
+      url: "https://www.linkedin.com/in/mohammad-badhruddouza-khan-97b023195"
+# work:
+ # - company: "Circadence"
+   # position: "Systems Architecture Engineer"
+   # website: "https://www.circadence.com/"
+   # startDate: "2018-09-02"
+   # endDate: ""
+   # summary: >
+     # Working on the Research and Development team at Circadence to provide state of the art technologies for cyber-security penetration testing.
+   # highlights:
+     # - "Responsible for architecting, implementing and testing multiple software and firmware solutions for custom hardware."
+     # - "Utilized Software Defined Radio to spawn a custom 4GLTE Base station. Created an operation GUI for users to forward traffic, track logs and maintain Command and Control channels"
+education:
+  - institution: >
+      <a href="https://kuet.ac.bd">Khulna University of Engineering & Technology, Khulna</a>
+ 
+    area: "Biomedical Engineering"
+    studyType: "Bachelor"
+    startDate: "2018-01-18"
+   # endDate: "2023-05-01"
+  
+# awards:
+ # - title: "Startup School"
+   # date: "2018-09-01"
+   # awarder: "YCombinator"
+   # summary: "Completed YCombinator's Startup School program on how to build a successful startup."
+# publications:
+ # - name: "How to Build In-Plants, a Mesh-Connected Soil Monitoring System"
+   # publisher: "Particle"
+   # releaseDate: "2019-05-06"
+   # website: "https://blog.particle.io/2019/05/06/learn-how-to-build-in-plants-a-mesh-connected-soil-monitoring-system/"
+   # summary: "Utilize the Internet of Things to watch over your house plants."
+skills:
+  - name: "Deep Learning"
+    level: "Professional"
+    keywords:
+      - "Tensorflow"
+      - "Keras"
+      - "Pytorch"
+  - name: "Data Analysis"
+    level: "Professional"
+    keywords:
+      - "Tableau"
+      - "SQL"
+      - "Excel"
+languages:
+  - language: "Python"
+    fluency: "full-professional-proficiency"
+  - language: "Assembly"
+    fluency: "elementary proficiency"
+  - language: "C"
+    fluency: "limited-working-proficiency"
+   # fluency: "professional working proficiency"
+#interests:
+#  - name: "Cyber-Security"
+#    keywords:
+#      - "Physical Security"
+#      - "Close Access Technology"
+#  - name: "Cloud Computing"
+#    keywords:
+#      - "Mutli-Cloud Networking"
+#      - "Cloud Security"
+#      - "Cloud Hybrid Solutions"
+#  - name: "Internet of Things"
+#    keywords:
+#      - "Wireless Embeded Technology"
+#      - "4G-LTE"
+#      - "5G"
+# references:
+#   - name: "Erlich Bachman"
+#     reference: >
+#       It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+#       Company proved that he will be a valuable addition to any company.
