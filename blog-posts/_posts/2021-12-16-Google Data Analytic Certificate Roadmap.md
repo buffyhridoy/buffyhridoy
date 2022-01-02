@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Google Data Analytic Certificate Roadmap
-description: >
-  Here we will see What we will learn and Skill sets we will build throught out all cources
 hide_image: false
 accent_color: '#4fb1ba'
 accent_image:
