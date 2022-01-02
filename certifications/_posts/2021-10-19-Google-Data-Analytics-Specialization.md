@@ -12,7 +12,11 @@ accent_image:
 ### Description:
 This specialization program includes over 180 hours of instruction and hundreds of practice-based assessments, which has helped me simulate real-world data analytics scenarios. The content is highly interactive and exclusively developed by Google employees with decades of experience in data analytics. 
 
+![image](https://user-images.githubusercontent.com/37147511/147879845-7406e766-f112-41e8-8953-acf1f39b33bb.png)
+
 Here are the certificates of all courses under [**Google Data Analytics Specialization**](https://www.coursera.org/account/accomplishments/specialization/certificate/4RYVX8898WH7)
+
+![image](https://user-images.githubusercontent.com/37147511/147879845-7406e766-f112-41e8-8953-acf1f39b33bb.png)
 
 [Foundations: Data, Data, Everywhere](https://www.coursera.org/account/accomplishments/certificate/T7EAFTUGA4VS)
 
