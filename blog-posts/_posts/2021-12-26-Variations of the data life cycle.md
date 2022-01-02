@@ -3,6 +3,8 @@ layout: post
 title: Variations of the Data Life Cycle
 description: >
   A brief discussion on variations of the data Life cycle.
+image: ![deep learning specialization 3](https://user-images.githubusercontent.com/37147511/147880355-c3fd4cf3-3ee8-480e-8ae1-80a1b6e005b7.jpg)
+
 hide_image: false
 accent_color: '#4fb1ba'
 accent_image:
