@@ -3,7 +3,7 @@ layout: post
 title: Deep Learning Specialization
 # description: >
  # The Deep Learning Specialization is a foundational program that has helped me understand the capabilities, challenges, and consequences of deep learning and prepared me to participate in the development of leading-edge AI technology. 
-image: /assets/img/certificates/Deep Learning Specialization.jpg
+image: /assets/img/certificates/deep learning specialization 2.jpg
 accent_color: '#4fb1ba'
 accent_image: 
   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
