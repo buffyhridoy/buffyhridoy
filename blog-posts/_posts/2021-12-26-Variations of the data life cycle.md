@@ -3,11 +3,11 @@ layout: post
 title: Variations of the Data Life Cycle
 description: >
   A brief discussion on variations of the data Life cycle.
-image: /assets/img/certificates/Google Data Analytics Specialization.jpg 
+
 
 hide_image: false
 accent_color: '#4fb1ba'
-accent_image:
+accent_image: /assets/img/certificates/Google Data Analytics Specialization.jpg 
   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
   overlay:    true
 
