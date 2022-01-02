@@ -12,6 +12,8 @@ accent_image:
 
 ---
 
+#### Description: 
+The Deep Learning Specialization is a foundational program that has helped me understand the capabilities, challenges, and consequences of deep learning and prepared me to participate in the development of leading-edge AI technology. 
 
 
 Here are the certificates of all courses under [**Deep Learning Specialization**](https://www.coursera.org/account/accomplishments/specialization/certificate/53XSJ5NXBJFX)
