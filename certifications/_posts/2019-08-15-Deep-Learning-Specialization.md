@@ -10,9 +10,7 @@ accent_image:
   overlay:    true
 
 ---
-Here are the certificates of all courses under **Deep Learning Specialization** 
-
-[Deep Learning Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/53XSJ5NXBJFX)
+Here are the certificates of all courses under [**Deep Learning Specialization**](https://www.coursera.org/account/accomplishments/specialization/certificate/53XSJ5NXBJFX)
 
 [Neural Networks and Deep Learning](https://www.coursera.org/account/accomplishments/certificate/3M3UKYYWPA3H)
 
