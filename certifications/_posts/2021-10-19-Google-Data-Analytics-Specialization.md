@@ -16,8 +16,6 @@ This specialization program includes over 180 hours of instruction and hundreds 
 
 Here are the certificates of all courses under [**Google Data Analytics Specialization**](https://www.coursera.org/account/accomplishments/specialization/certificate/4RYVX8898WH7)
 
-![image](https://user-images.githubusercontent.com/37147511/147879845-7406e766-f112-41e8-8953-acf1f39b33bb.png)
-
 [Foundations: Data, Data, Everywhere](https://www.coursera.org/account/accomplishments/certificate/T7EAFTUGA4VS)
 
 [Ask Questions to Make Data-Driven Decisions](https://www.coursera.org/account/accomplishments/certificate/GAFC9JXRKY5L)
