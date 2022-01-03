@@ -44,7 +44,7 @@ author:
   email:               <badhruddouza@gmail.com>
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
-
+google_analytics: UA-213430886-1
 # Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.
 legal:
