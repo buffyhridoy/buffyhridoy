@@ -62,6 +62,64 @@ layout: about
 {% assign content = content | replace:"<!--projects-->", projets_x %}
 {% endif %}
 
+{% if content contains "<!--bme-->" %}
+{% capture projets_x %}
+{% if page.selected_bme %}
+  <div class="columns mt2 {% unless no_third_column %}columns-break{% endunless %}">
+    {% for project_path in page.selected_bme %}
+      {% if major >= 4 and minor >= 1 %}
+       {% assign project = site.bme | find_exp:"project", "project_path == project.path or project_path == project.url" %}
+      {% else %}
+                            {% assign project = site.bme | where_exp:"project", "project_path == project.path" | first %}
+        {% unless project %}{% assign project = site.bme | where_exp:"project", "project_path == project.url"  | first %}{% endunless %}
+      {% endif %}
+
+      {% assign featured = page.featured | default:project.featured | default:page.big_project | default:project.big_project %}
+      <div class="column {% if featured %}column-1{% else %}column-1-2{% endif %}">
+        {% if project %}
+          {% include_cached pro/project-card.html project=project featured=featured %}
+        {% else %}
+          Project with path <code>{{ project_path }}</code> not found.
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+{% elsif site.bme.size > 1 %}
+  <div class="columns mt2 {% unless no_third_column %}columns-break{% endunless %}">
+    {% assign ordered_bme = site.bme | sort:"date" | reverse %}
+    {% for project in ordered_bme limit:2 %}
+      {% assign featured = page.featured | default:project.featured | default:page.big_project | default:project.big_project %}
+      <div class="column {% if featured %}column-1{% else %}column-1-2{% endif %}">
+        {% include_cached pro/project-card.html project=project featured=featured %}
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% assign bme_page = page.bme_page | default:page.more_bme %}
+{% if bme_page %}
+  {% if major >= 4 and minor >= 1 %}
+    {% assign more_bme = site.pages | find_exp:"page", "bme_page == page.path or bme_page == page.url" %}
+  {% else %}
+                              {% assign more_bme = site.pages | where_exp:"page", "bme_page == page.path" | first %}
+    {% unless more_bme %}{% assign more_bme = site.pages | where_exp:"page", "bme_page == page.url"  | first %}{% endunless %}
+  {% endif %}
+  
+  {% if more_bme %}
+    {% capture bme_title %}<a class="heading flip-title" href="{{ more_bme.url | relative_url }}">{{ more_bme.title }}</a>{% endcapture %}
+    {% assign text = strings.welcome.more_bme | default:"See <!--projects_title--> for more" %}
+    <p class="read-more mt1">
+      {{ text | replace:"<!--projects_title-->", bme_title }}
+    </p>
+  {% else %}
+    Page with path <code>{{ page.more_posts }}</code> not found.
+  {% endif  %}
+{% endif %}
+{% endcapture %}
+{% assign content = content | replace:"<!--projects-->", projets_x %}
+{% endif %}
+
+
 {% if content contains "<!--posts-->" %}
 {% capture posts_x %}
 {% if page.selected_posts %}
