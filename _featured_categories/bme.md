@@ -1,7 +1,7 @@
 ---
 layout: grid
-title: Mini-Projects
-slug: mini-projects
+title: BME
+slug: bme
 menu: true
 order: 3
 description: >
