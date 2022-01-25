@@ -1,7 +1,7 @@
 ---
 layout: bme
 title: BME
-show_collection: projects
+show_collection: bme
 description: >
   A collection of hardware & software projects that I work on during my graduation.
 menu: true
