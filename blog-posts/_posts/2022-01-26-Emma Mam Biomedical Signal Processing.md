@@ -20,14 +20,14 @@ accent_image:
 4. is caused by the flow of Na+, K+, Cl-, and other ions across the cell membrane
 
 Recording an action potential requires
-
 - isolation of a single cell
 - microelectrodes with tips of the order of a few micrometers
 
-    To stimulate the cell and record the response
+  To stimulate the cell and record the response
  </details>
   
-- Resting Potential
+<details>
+<summary>Resting Potential</summary>
     
     In their resting state, 
     
@@ -37,7 +37,8 @@ Recording an action potential requires
     **A cell in its resting state is said to be polarized**. 
     
     Most cells maintain a resting potential  -60 to - 100 mV until some disturbance or stimulus upsets the equilibrium
-    
+ </details>
+ 
 - What are results of the inability of Na+ to penetrate a cell membrane?
     1. Na+ concentration inside the cell
     2. The outside of the cell is more positive
