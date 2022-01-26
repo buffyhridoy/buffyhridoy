@@ -12,31 +12,31 @@ accent_image:
 ---
 
 <details>
-<summary>What is action potential and How to record an action potential?</summary>
+  <summary>What is action potential and How to record an action potential?</summary>
 
-1. The action potential is the basic component of all bioelectrical signals 
-2. provides information on the nature of physiological activity at the single-cell level
-3. accompanies the mechanical contraction of a single cell when stimulated by an electrical current
-4. is caused by the flow of Na+, K+, Cl-, and other ions across the cell membrane
+  1. The action potential is the basic component of all bioelectrical signals 
+  2. provides information on the nature of physiological activity at the single-cell level
+  3. accompanies the mechanical contraction of a single cell when stimulated by an electrical current
+  4. is caused by the flow of Na+, K+, Cl-, and other ions across the cell membrane
 
-Recording an action potential requires
-- isolation of a single cell
-- microelectrodes with tips of the order of a few micrometers
+  Recording an action potential requires
+  - isolation of a single cell
+  - microelectrodes with tips of the order of a few micrometers
 
-  To stimulate the cell and record the response
+    To stimulate the cell and record the response
  </details>
   
 <details>
-<summary>Resting Potential</summary>
-    
-    In their resting state, 
-    
-    - membranes of excitable cells readily permit the entry of K+ and Cl- ions,
-    - but effectively block the entry of Na+ ions
-    
-    **A cell in its resting state is said to be polarized**. 
-    
-    Most cells maintain a resting potential  -60 to - 100 mV until some disturbance or stimulus upsets the equilibrium
+  <summary>Resting Potential</summary>
+
+      In their resting state, 
+
+      - membranes of excitable cells readily permit the entry of K+ and Cl- ions,
+      - but effectively block the entry of Na+ ions
+
+      **A cell in its resting state is said to be polarized**. 
+
+      Most cells maintain a resting potential  -60 to - 100 mV until some disturbance or stimulus upsets the equilibrium
  </details>
  
 - What are results of the inability of Na+ to penetrate a cell membrane?
