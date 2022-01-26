@@ -1,8 +1,7 @@
-
 ---
 layout: project
 title: Analog to Digital Converter
-date: 26 January 2022
+date: 26 Januaray 2021
 image: /assets/img/projects/dld-project.png 
 links:
   - title: Project Report
