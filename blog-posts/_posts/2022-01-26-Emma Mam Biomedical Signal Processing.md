@@ -24,7 +24,7 @@ Recording an action potential requires
 - isolation of a single cell
 - microelectrodes with tips of the order of a few micrometers
 
-To stimulate the cell and record the response
+    To stimulate the cell and record the response
  </details>
   
 - Resting Potential
