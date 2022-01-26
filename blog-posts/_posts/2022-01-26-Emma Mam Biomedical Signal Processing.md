@@ -1,17 +1,30 @@
+---
+layout: post
+title: Emma Mam Biomedical Signal Processing
+
+
+hide_image: false
+accent_color: '#4fb1ba'
+accent_image:
+  background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
+  overlay:    true
+
+---
+
 <details>
 <summary>What is action potential and How to record an action potential?</summary>
 
-    1. The action potential is the basic component of all bioelectrical signals 
-    2. provides information on the nature of physiological activity at the single-cell level
-    3. accompanies the mechanical contraction of a single cell when stimulated by an electrical current
-    4. is caused by the flow of Na+, K+, Cl-, and other ions across the cell membrane
-    
-    Recording an action potential requires
-    
-    - isolation of a single cell
-    - microelectrodes with tips of the order of a few micrometers
-    
-    To stimulate the cell and record the response
+1. The action potential is the basic component of all bioelectrical signals 
+2. provides information on the nature of physiological activity at the single-cell level
+3. accompanies the mechanical contraction of a single cell when stimulated by an electrical current
+4. is caused by the flow of Na+, K+, Cl-, and other ions across the cell membrane
+
+Recording an action potential requires
+
+- isolation of a single cell
+- microelectrodes with tips of the order of a few micrometers
+
+To stimulate the cell and record the response
  </details>
   
 - Resting Potential
