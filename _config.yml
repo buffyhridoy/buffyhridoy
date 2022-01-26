@@ -110,11 +110,7 @@ defaults:
       
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
-  - scope:
-      type:            bme
-    values:
-      seo:
-        type:          WebPage
+
   - scope:
       type:            projects
     values:
@@ -268,10 +264,7 @@ collections:
   projects:
     permalink:         /projects/:path/
     output:            true
-  
-  bme:
-    permalink:         /bme/:path/
-    output:            true
+
 
 # File inclusion/exclusion
 # ----------------------------------------------------------------------------------------
@@ -371,13 +364,4 @@ jekyll_compose:
       links:
         - title: Project Link
           url: https://example.com
-    bme:
-      layout: project
-      description: > 
-        A short ~160 character description of your post for search engines,
-        social media previews, etc.
-      image:
-        path: /assets/img/sidebar-bg.jpg
-      links:
-        - title: Project Link
-          url: https://example.com          
+     
