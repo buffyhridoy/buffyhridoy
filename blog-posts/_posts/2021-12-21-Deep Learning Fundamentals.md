@@ -5,7 +5,7 @@ title: Deep Learning Fundamentals
 description: >
   A brief introduction to basics of deep learning. 
 image:  
-  path: /assets/img/blog/Demo.png
+  https://user-images.githubusercontent.com/37147511/146909130-c82172dd-1a6e-4d6f-b1f8-f50ff7ff9d68.jpg
 canonical_url: http://Deep Learning Fundamentals
 hide_image: True
 accent_color: '#4fb1ba'
