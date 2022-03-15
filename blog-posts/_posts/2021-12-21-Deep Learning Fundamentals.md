@@ -7,7 +7,7 @@ description: >
 image:  
   https://user-images.githubusercontent.com/37147511/146909130-c82172dd-1a6e-4d6f-b1f8-f50ff7ff9d68.jpg
 canonical_url: http://Deep Learning Fundamentals
-hide_image: True
+hide_image: False
 accent_color: '#4fb1ba'
 accent_image:
   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
