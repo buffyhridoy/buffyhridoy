@@ -3,7 +3,7 @@ published: True
 layout: post
 title: Large Scale Machine Learning
 description: >
-  
+  Process of integrating machine learning models to establish businesses or applications  
 image:  
   path: /assets/img/blog/Demo.png
 canonical_url: http://Large Scale Machine Learning
@@ -14,7 +14,7 @@ accent_image:
   overlay:    true
 ---
 
-In reality, integrating machine learning models and to establish businesses or applications often requires many more considerations for starters. 
+In reality, integrating machine learning models to establish businesses or applications often requires many more considerations for starters. 
 We typically don't have neatly laid out feature for us to train on. 
 So we need some process in place which extracts relevant features from potentially petabytes of raw data. 
 Once we do that, we can then find relevant features and labels for our models. 
