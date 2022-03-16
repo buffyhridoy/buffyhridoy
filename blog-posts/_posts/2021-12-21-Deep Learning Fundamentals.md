@@ -7,7 +7,7 @@ description: >
 image:  
   path: /assets/img/blog/artificial neurons.jpg
 canonical_url: http://Deep Learning Fundamentals
-hide_image: False
+hide_image: True
 accent_color: '#4fb1ba'
 accent_image:
   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
