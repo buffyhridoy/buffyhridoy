@@ -1,8 +1,8 @@
 ---
 layout: post
 title: CNN Based Detection of the Severity of Diabetic Retinopathy from the Fundus Photography using EfficientNet-B5
-image: /assets/img/mini-projects/SharedScreenshot.jpg
-caption: Proposed WBC subtype classifying CNN model
+image: /assets/img/mini-projects/dr.jpg
+caption: The flowchart of our framework to detect the five classes of DR
 accent_color: '#4fb1ba'
 accent_image:
   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
