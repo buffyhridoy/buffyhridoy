@@ -4,8 +4,7 @@ layout: post
 title: Large Scale Machine Learning
 description: >
   process of integrating machine learning models to establish businesses or applications.
-image:  
-  path: /assets/img/blog/Demo.png
+
 canonical_url: http://Large Scale Machine Learning
 hide_image: false
 accent_color: '#4fb1ba'
