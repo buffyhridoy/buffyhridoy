@@ -5,7 +5,7 @@ date: 26 Januaray 2022
 image: /assets/img/projects/asl-i-love-you-preview.webp
 links:
 
-  - title: Project Files
+  - title: Github
     url: https://github.com/buffyhridoy/Sign-Language-Detection-using-ACTION-RECOGNITION-with-Python--LSTM-Deep-Learning-Model
 caption: Sign Language Detection using ACTION RECOGNITION with Python LSTM Deep Learning Model
 description: >
