@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Sign Language Detection
-date: 26 Januaray 2022
+date: 30 Januaray 2022
 image: /assets/img/projects/asl-i-love-you-preview.webp
 links:
 
