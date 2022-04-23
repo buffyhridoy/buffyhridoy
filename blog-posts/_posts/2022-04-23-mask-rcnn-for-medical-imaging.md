@@ -12,7 +12,7 @@ accent_image:
   overlay:    true
 ---
 
-today we are going to discuss about maskRCNN for instance segmentation for medical images. What
+Today we are going to discuss about maskRCNN for instance segmentation for medical images. What
 happens often is if we have images we want to really know is how many regions of interest are there and
 exactly where are they located. if we take a an image of our road outside we might see that there are multiple cars
 there are multiple pedestrians. So in order for us to gause is there a traffic congestion or not we might need
