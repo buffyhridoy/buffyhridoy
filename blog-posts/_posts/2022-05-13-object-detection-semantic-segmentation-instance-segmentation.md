@@ -20,7 +20,7 @@ Suppose, we have a bunch of cells in an image and if we put bounding box around 
 
 ![image](https://user-images.githubusercontent.com/37147511/168235021-2682662c-fb0c-48ec-9e66-d1c8deb35cae.png)
 
-Now if we actually paint the pixels corresponding to humans in this image then that is _**semantic segmentation**_ where
+Now if we actually paint the pixels corresponding to humans in this image then that is _**semantic segmentation**_ 
 
 ![image](https://user-images.githubusercontent.com/37147511/168235625-5f9643d3-396e-4d5d-8fe0-25d71be1f04b.png)
 
