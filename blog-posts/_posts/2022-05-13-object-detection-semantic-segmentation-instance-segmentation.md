@@ -16,7 +16,7 @@ accent_image:
 
 If we have an image like this where we have a bounding box around each individual then this is typically the _**object detection**_. 
 
-Suppose, we have a bunch of cells in an image and if we put bounding box around each cell or a particle then it is also an _**object detection**_.
+Suppose, we have a bunch of cells in an image and if we put bounding box around each cell then it is also an _**object detection**_.
 
 ![image](https://user-images.githubusercontent.com/37147511/168235021-2682662c-fb0c-48ec-9e66-d1c8deb35cae.png)
 
