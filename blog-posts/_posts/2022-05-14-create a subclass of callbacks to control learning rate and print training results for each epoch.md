@@ -42,3 +42,16 @@ from PIL import Image
 from sklearn.metrics import confusion_matrix, classification_report
 from IPython.core.display import display, HTML
 ```
+## Look at an image to get the shape
+
+```python
+imgpath=r'../input/cell-images-for-detecting-malaria/cell_images/Parasitized/C100P61ThinF_IMG_20150918_144104_cell_164.png'
+img=plt.imread(imgpath)
+print (img.shape)
+plt.imshow(img)
+```
+![image](https://user-images.githubusercontent.com/37147511/168420853-ebd5579e-1894-4e4f-9455-ec7008a438cf.png)
+
+
+
+
