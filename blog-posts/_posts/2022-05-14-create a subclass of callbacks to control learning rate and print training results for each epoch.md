@@ -389,7 +389,8 @@ print_in_color(msg, (0,255,0), (55,65,80))
 
 ## Define function to generate the confusion matrix and classification report
 
-```def print_info( test_gen, preds, print_code, save_dir, subject ):
+```python
+def print_info( test_gen, preds, print_code, save_dir, subject ):
     class_dict=test_gen.class_indices
     labels= test_gen.labels
     file_names= test_gen.filenames 
