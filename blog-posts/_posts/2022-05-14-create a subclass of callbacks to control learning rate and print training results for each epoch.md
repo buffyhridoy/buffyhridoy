@@ -479,6 +479,15 @@ def print_info( test_gen, preds, print_code, save_dir, subject ):
             plt.show()    
         print("Classification Report:\n----------------------\n", clr)
 ```
+## Save the model
+```python
+save_dir=r'./'
+subject='malaria'
+save_id=str (model_name +  '-' + subject +'-'+ str(acc)[:str(acc).rfind('.')+3] + '.h5')
+save_loc=os.path.join(save_dir, save_id)
+model.save(save_loc)
+```
+
 ## Make predictions on test set and generate confusion matrix and classification report
 ```python
 print_code=0
