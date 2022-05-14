@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Important Colab Commands
+title: Most Used Colab Commands
 description: >
   This blog is a collection of some important colab commands I need to use for training ML or DL models.
 
-canonical_url: http://Important Colab Commands
+canonical_url: http://Most Used Colab Commands
 hide_image: false
 accent_color: '#4fb1ba'
 accent_image:
