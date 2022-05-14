@@ -19,7 +19,16 @@ For connecting Google Colab with Google Drive we need to run the 2 lines of code
 from google.colab import drive
 drive.mount('/content/gdrive')
 ```
-After running these lines of code our Google Drive will be connected to our Colab notebook. Then we can access the data from our Google Drive.
+After running these lines of code follwing interface will be shown:
+
+![image](https://user-images.githubusercontent.com/37147511/168416541-456f16b8-f2ee-4e70-902b-a2fe95cd8382.png)
+
+We have to click `Connect to Google Drive` button.
+
+![image](https://user-images.githubusercontent.com/37147511/168416621-70970c1a-ea13-411b-8a29-eddf98e5595f.png)
+
+Then we have to select the Google Drive account. Then we have to the allow the permission will be asked. Finally we will be connecting our Colab notebook to our Google Drive.
+
 
 ## Accessing local file system from Colab notebook
 
