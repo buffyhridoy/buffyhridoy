@@ -323,3 +323,5 @@ vgg_model = generate_model('vgg16', 4)
 ```python
 vgg_model, vgg_history = train_model(vgg_model, train_generator, val_generator, 10, tf.keras.optimizers.SGD(lr=0.001, momentum=0.9), metrics)
 ```
+![image](https://user-images.githubusercontent.com/37147511/171511018-d65c60a7-7aed-418f-9a21-f7bf280e98df.png)
+
