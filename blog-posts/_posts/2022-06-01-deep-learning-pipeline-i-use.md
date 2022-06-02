@@ -323,5 +323,23 @@ vgg_model = generate_model('vgg16', 4)
 ```python
 vgg_model, vgg_history = train_model(vgg_model, train_generator, val_generator, 10, tf.keras.optimizers.SGD(lr=0.001, momentum=0.9), metrics)
 ```
-![image](https://user-images.githubusercontent.com/37147511/171511018-d65c60a7-7aed-418f-9a21-f7bf280e98df.png)
+![image](https://user-images.githubusercontent.com/37147511/171550609-12d1c252-0c58-41e8-ba83-359c68a4ff3c.png)
+
+## Evaluate Model
+```python
+evaluate_model(vgg_model, vgg_history, test_generator)
+```
+![image](https://user-images.githubusercontent.com/37147511/171550729-d8fd1c18-fa4c-41fb-a8b1-2071710e38e7.png)
+![image](https://user-images.githubusercontent.com/37147511/171550771-08f7717a-c240-49d1-8f83-954b41ed9faa.png)
+![image](https://user-images.githubusercontent.com/37147511/171550840-d8cd066a-7179-4526-8b74-1d94a3776b1c.png)
+![image](https://user-images.githubusercontent.com/37147511/171550911-78f11677-12cf-4a4b-9a60-2fe81f05c3dd.png)
+![image](https://user-images.githubusercontent.com/37147511/171550955-61142cab-dd1c-48f5-ae9e-3cd682c1621d.png)
+![image](https://user-images.githubusercontent.com/37147511/171551073-f4059d79-7ba5-4478-959b-bc66274be73d.png)
+![image](https://user-images.githubusercontent.com/37147511/171551138-714bb2c3-96e6-4e09-92f4-d7e863131c0c.png)
+![image](https://user-images.githubusercontent.com/37147511/171551171-65d844e3-3c56-49ca-98b4-f31f69476c6d.png)
+
+
+
+
+
 
