@@ -40,6 +40,10 @@ from sklearn.model_selection import train_test_split
 from sklearn.utils import class_weight
 from sklearn.preprocessing import LabelBinarizer
 from sklearn.metrics import roc_curve, auc, roc_auc_score, confusion_matrix, classification_report
+from keras.preprocessing.image import load_img,img_to_array
+from PIL import Image
+import matplotlib.cm as cm
+
 ```
 
 ## Set the path
@@ -338,8 +342,116 @@ evaluate_model(vgg_model, vgg_history, test_generator)
 ![image](https://user-images.githubusercontent.com/37147511/171551138-714bb2c3-96e6-4e09-92f4-d7e863131c0c.png)
 ![image](https://user-images.githubusercontent.com/37147511/171551171-65d844e3-3c56-49ca-98b4-f31f69476c6d.png)
 
+# Model Interpretability using Grad CAM
+One way to ensure the model is performing correctly is to debug your model and visually validate that it is “looking” and “activating” at the correct locations in an image.
 
+Selvaraju et al. published a novel paper entitled, Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization (https://arxiv.org/abs/1610.02391).
 
+GRAD-CAM works by (1) finding the final convolutional layer in the network and then (2) examining the gradient information flowing into that layer.
 
+The output of Grad-CAM is a heatmap visualization for a given class label (either the top, predicted label or an arbitrary label we select for debugging). We can use this heatmap to visually verify where in the image the CNN is looking.
 
+```python
+image_path= df_test['image_path'][101]
+
+img = load_img(image_path, target_size=(224,224,3)) # stores image in PIL format
+image_array=img_to_array(img)
+```
+## Display Original Image 
+```python
+from PIL import Image
+display(Image.open(image_path))
+```
+![image](https://user-images.githubusercontent.com/37147511/171556737-8ff42afd-010b-4bf2-a0c3-c1d57ee68d9f.png)
+
+## GRAD CAM Algorithm
+```python
+def make_gradcam_heatmap(img_array, model, last_conv_layer_name, pred_index=None):
+    # First, we create a model that maps the input image to the activations
+    # of the last conv layer as well as the output predictions
+
+    grad_model = tf.keras.models.Model([model.inputs], [model.get_layer(last_conv_layer_name).output, model.layers[-2].output])
+
+    # Then, we compute the gradient of the top predicted class for our input image
+    # with respect to the activations of the last conv layer
+    with tf.GradientTape() as tape:
+        last_conv_layer_output, preds = grad_model(img_array)
+        if pred_index is None:
+            pred_index = tf.argmax(preds[0])
+        class_channel = preds[:, pred_index]
+
+    # This is the gradient of the output neuron (top predicted or chosen)
+    # with regard to the output feature map of the last conv layer
+    grads = tape.gradient(class_channel, last_conv_layer_output)
+
+    # This is a vector where each entry is the mean intensity of the gradient
+    # over a specific feature map channel
+    pooled_grads = tf.reduce_mean(grads, axis=(0, 1, 2))
+
+    # We multiply each channel in the feature map array
+    # by "how important this channel is" with regard to the top predicted class
+    # then sum all the channels to obtain the heatmap class activation
+    last_conv_layer_output = last_conv_layer_output[0]
+    heatmap = last_conv_layer_output @ pooled_grads[..., tf.newaxis]
+    heatmap = tf.squeeze(heatmap)
+
+    # For visualization purpose, we will also normalize the heatmap between 0 & 1
+    heatmap = tf.maximum(heatmap, 0) / tf.math.reduce_max(heatmap)
+    return heatmap.numpy()
+```
+## Create Heat Map
+```python
+# Make model
+model = vgg_model
+last_conv_layer_name ="block5_conv3"
+# Remove last layer's softmax
+model.layers[-1].activation = None
+
+img_array=np.expand_dims(image_array, axis=0)
+# Prepare particular image 
+
+# Generate class activation heatmap
+heatmap= make_gradcam_heatmap(img_array, model, last_conv_layer_name)
+
+# Display heatmap
+plt.matshow(heatmap)
+plt.show()
+```
+![image](https://user-images.githubusercontent.com/37147511/171557041-3e46fc87-9dfd-43c0-977b-afea70400ece.png)
+
+```python
+def save_and_display_gradcam(img_path, heatmap, cam_path, alpha=0.4):
+    # Load the original image
+    img = tf.keras.preprocessing.image.load_img(img_path)
+    img = tf.keras.preprocessing.image.img_to_array(img)
+
+    # Rescale heatmap to a range 0-255
+    heatmap = np.uint8(255 * heatmap)
+
+    # Use jet colormap to colorize heatmap
+    jet = cm.get_cmap("jet")
+
+    # Use RGB values of the colormap
+    jet_colors = jet(np.arange(256))[:, :3]
+    jet_heatmap = jet_colors[heatmap]
+
+    # Create an image with RGB colorized heatmap
+    jet_heatmap = tf.keras.preprocessing.image.array_to_img(jet_heatmap)
+    jet_heatmap = jet_heatmap.resize((img.shape[1], img.shape[0]))
+    jet_heatmap = tf.keras.preprocessing.image.img_to_array(jet_heatmap)
+
+    # Superimpose the heatmap on original image
+    superimposed_img = jet_heatmap * alpha + img
+    superimposed_img = tf.keras.preprocessing.image.array_to_img(superimposed_img)
+
+    # Save the superimposed image
+    superimposed_img.save(cam_path)
+
+    # Display Grad CAM
+    display(Image.open(cam_path))
+```
+```python
+save_and_display_gradcam(image_path, heatmap,cam_path="/kaggle/working/GradCamTest.jpg")
+```
+![image](https://user-images.githubusercontent.com/37147511/171557542-e3dc3393-b8b6-4c30-a06a-cd03e44f9ad5.png)
 
