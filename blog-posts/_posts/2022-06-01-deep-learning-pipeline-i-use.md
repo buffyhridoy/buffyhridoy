@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deep Learning Pipeline I Use
+title: Deep Learning Pipeline I Use(and Model Interpretability using Grad CAM)
 description: >
   In this blog, I have showed the pipeline I use for deep learning 
 canonical_url: http://Deep Learning Pipeline I Use
