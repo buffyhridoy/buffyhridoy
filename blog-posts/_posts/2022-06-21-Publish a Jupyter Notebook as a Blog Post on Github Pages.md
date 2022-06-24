@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Most Used Colab Commands
+title: Publish a Jupyter Notebook as a Blog Post on Github Pages
 description: >
   This blog is about publishing jupyter notebook as a blog post on github pages.
 
