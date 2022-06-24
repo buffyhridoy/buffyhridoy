@@ -1,5 +1,6 @@
 ---
 layout: project
+published: False
 title: Analog to Digital 
 date: 26 Januaray 2022
 image: /assets/img/projects/dld-project.png 
