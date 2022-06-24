@@ -1,5 +1,6 @@
 ---
 layout: project
+published: False
 title: 'SwiFT Store Management'
 date: 21 Dec 2020
 image:  
