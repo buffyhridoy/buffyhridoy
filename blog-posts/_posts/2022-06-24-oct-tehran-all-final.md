@@ -63,7 +63,7 @@ sns.countplot(x = Y_train)
 
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_5_1.png)
+![image](https://user-images.githubusercontent.com/37147511/175611378-b95d6616-577e-447b-95b6-5b4898f95612.png)
 
 
 
@@ -79,7 +79,7 @@ sns.countplot(x = Y_val)
 
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_6_1.png)
+![image](https://user-images.githubusercontent.com/37147511/175611456-08366bc6-4331-44a5-bd66-eef9be6c59c6.png)
 
 
 
@@ -95,7 +95,7 @@ sns.countplot(x = Y_test)
 
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_7_1.png)
+![image](https://user-images.githubusercontent.com/37147511/175611494-c69d8489-a4f4-435d-a9c9-9f55ff92a86b.png)
 
 
 
@@ -456,27 +456,26 @@ evaluate_model(vgg_model, vgg_history, test_generator)
 
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_16_1.png)
+![image](https://user-images.githubusercontent.com/37147511/175611586-5a38033c-360f-4d51-9d30-d18647754e56.png)
 
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_16_2.png)
+![image](https://user-images.githubusercontent.com/37147511/175611633-5f35b045-29a8-4af4-8bcf-f75604ca21a0.png)
 
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_16_3.png)
+![image](https://user-images.githubusercontent.com/37147511/175611665-4ca0292e-687b-4a18-a287-48a26ad5839a.png)
 
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_16_4.png)
+![image](https://user-images.githubusercontent.com/37147511/175611692-ff4940e0-7d4c-49db-b084-321d8ad3f50b.png)
 
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_16_5.png)
+![image](https://user-images.githubusercontent.com/37147511/175611717-8e5f5c4b-610b-4705-ad25-2e539b4ebc49.png)
 
 
-
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_16_6.png)
+![image](https://user-images.githubusercontent.com/37147511/175611743-52ae0862-ee59-4458-ae67-62261a382495.png)
 
 
     ROC AUC score: 0.9990817175287033
@@ -508,7 +507,7 @@ display(Image.open(image_path))
 ```
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_20_0.png)
+![image](https://user-images.githubusercontent.com/37147511/175611779-59ca9b40-ef65-41f4-9df3-ec0931599eff.png)
 
 
 
@@ -567,8 +566,7 @@ plt.show()
 ```
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_22_0.png)
-
+![image](https://user-images.githubusercontent.com/37147511/175611851-af6adcd6-bffb-4c10-81dd-d45d4aacfdf9.png)
 
 
 ```python
@@ -610,7 +608,7 @@ save_and_display_gradcam(image_path, heatmap,cam_path="/kaggle/working/GradCamTe
 ```
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_24_0.png)
+![image](https://user-images.githubusercontent.com/37147511/175612070-bc5e746a-5188-497c-bd0c-eb0f09041a1e.png)
 
 
 
@@ -2391,27 +2389,25 @@ evaluate_model(incres_model, incresincres_history, test_generator)
 
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_27_1.png)
+![image](https://user-images.githubusercontent.com/37147511/175612170-320d52da-d7ed-45e0-919e-3c5a7b669c5e.png)
 
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_27_2.png)
+![image](https://user-images.githubusercontent.com/37147511/175612189-774303d0-bcb5-4894-8403-f6eef120adf7.png)
 
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_27_3.png)
+![image](https://user-images.githubusercontent.com/37147511/175612225-f3ebde00-8294-4e47-8a24-f3200f424215.png)
+
+
+![image](https://user-images.githubusercontent.com/37147511/175612249-ada0aae7-5414-459b-b70a-2210938d2563.png)
 
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_27_4.png)
+![image](https://user-images.githubusercontent.com/37147511/175612275-8ec47359-c212-49b3-9c47-d273aacfecea.png)
 
 
-
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_27_5.png)
-
-
-
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_27_6.png)
+![image](https://user-images.githubusercontent.com/37147511/175612297-7e9ae3f7-8d8c-484b-9037-35f16b70b1d6.png)
 
 
     ROC AUC score: 0.996721672251983
@@ -2706,27 +2702,27 @@ evaluate_model(model, history, test_generator)
 
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_31_1.png)
+![image](https://user-images.githubusercontent.com/37147511/175612409-48dd40f7-9268-4a19-aeef-326f86fdff53.png)
 
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_31_2.png)
+![image](https://user-images.githubusercontent.com/37147511/175612440-e7840c99-f0c4-485d-a386-c4a768f947ab.png)
 
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_31_3.png)
+![image](https://user-images.githubusercontent.com/37147511/175612471-df945ed0-1575-4438-be5c-7e53507e5c7a.png)
 
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_31_4.png)
+![image](https://user-images.githubusercontent.com/37147511/175612489-0cf2f4e6-5407-4dcd-b646-21b9063312bd.png)
 
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_31_5.png)
+![image](https://user-images.githubusercontent.com/37147511/175612509-9ddf9f79-a6c5-4cef-b65a-93239e4dd352.png)
 
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_31_6.png)
+![image](https://user-images.githubusercontent.com/37147511/175612532-9006a051-6731-4f0b-9080-ac6642a0f367.png)
 
 
     ROC AUC score: 0.9964107654417601
@@ -3497,28 +3493,26 @@ evaluate_model(inception_model, inception_history, test_generator)
 
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_34_1.png)
+![image](https://user-images.githubusercontent.com/37147511/175612617-916576a3-4479-47cc-bc93-da84fdb6cc86.png)
 
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_34_2.png)
+![image](https://user-images.githubusercontent.com/37147511/175612633-39637dec-18f6-4115-bff6-e5b01ce59835.png)
 
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_34_3.png)
+![image](https://user-images.githubusercontent.com/37147511/175612647-b8fc58a4-bf31-4fbd-82a9-96086ca92a8d.png)
 
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_34_4.png)
+![image](https://user-images.githubusercontent.com/37147511/175612673-1690b8d4-9b7e-4a6f-8853-1cdd7c4d039f.png)
 
 
 
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_34_5.png)
+![image](https://user-images.githubusercontent.com/37147511/175612691-3f6698c4-aa19-49ff-8e07-9e9e3375bfe8.png)
 
 
-
-![png](2022-06-24-oct-tehran-all-final_files/2022-06-24-oct-tehran-all-final_34_6.png)
-
+![image](https://user-images.githubusercontent.com/37147511/175612722-b31e6180-8df5-4f35-8c8b-f7a95893a99a.png)
 
     ROC AUC score: 0.983681411328206
 
