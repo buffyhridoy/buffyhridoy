@@ -12,6 +12,30 @@ accent_image:
   overlay:    true
 ---
 
+Here's the process of applying colors in markdown given below
+
+```python
+<style>
+c { color: cyan }
+d { color: #FF7F50 }  
+b { color: blue }
+v { color: violet }
+i { color: indigo }
+o { color: Orange }
+a { color: aquamarine }
+r { color: Red }
+g { color: Green }
+</style>
+
+- <c>How to Apply Color in Markdown?</c>
+- <d>How to Apply Color in Markdown?</d>
+- <b>How to Apply Color in Markdown?</b>
+- <v>How to Apply Color in Markdown?</v>
+- <o>How to Apply Color in Markdown?</o>
+- <r>How to Apply Color in Markdown?</r>
+- <g>How to Apply Color in Markdown?</g>
+```
+
 <style>
 c { color: cyan }
 d { color: #FF7F50 }  
