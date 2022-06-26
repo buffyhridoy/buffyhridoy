@@ -13,13 +13,14 @@ accent_image:
 ---
 <style>
 r { color: Red }
+b { color: Blue }
 o { color: Orange }
 g { color: Green }
 </style>
 
 Follow these quick tips to do after installing Ubuntu 22.04
 
-## 1. <r>Check and Install Package Updates</r>
+## 1. <b>Check and Install Package Updates</b>
 The first step is to check and install updates to keep our computer’s software up to date. This is the single most important task we need to do to protect our system.
 To install updates, open a terminal window and simply run the following commands.
 ```python
