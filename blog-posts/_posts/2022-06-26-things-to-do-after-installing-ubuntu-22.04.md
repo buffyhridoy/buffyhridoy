@@ -11,9 +11,15 @@ accent_image:
   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
   overlay:    true
 ---
+<style>
+r { color: Red }
+o { color: Orange }
+g { color: Green }
+</style>
+
 Follow these quick tips to do after installing Ubuntu 22.04
 
-## 1. Check and Install Package Updates
+## 1. <r>Check and Install Package Updates</r>
 The first step is to check and install updates to keep our computer’s software up to date. This is the single most important task we need to do to protect our system.
 To install updates, open a terminal window and simply run the following commands.
 ```python
