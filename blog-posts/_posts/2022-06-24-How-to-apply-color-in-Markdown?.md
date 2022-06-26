@@ -37,41 +37,42 @@ g { color: Green }
 
 1. Red colors
 
-![image](https://user-images.githubusercontent.com/37147511/175799879-31b1ede0-1a94-4ff6-9917-52a7b7cf603d.png)
+![image](https://user-images.githubusercontent.com/37147511/175800175-c6f535c0-5022-4a9b-89c1-9aeb4ec0ae27.png)
 
 2. Orange colors
 
-![image](https://user-images.githubusercontent.com/37147511/175799522-baed059e-966b-419b-852d-5eddff191f07.png)
+![image](https://user-images.githubusercontent.com/37147511/175800173-78e701b2-bfef-4b8f-b813-8bbfa992b5af.png)
 
 3. Yellow colors
 
-![image](https://user-images.githubusercontent.com/37147511/175799548-c01a1389-3d08-4067-b922-4a97f1b6b67e.png)
+![image](https://user-images.githubusercontent.com/37147511/175800168-a0cdf55d-699c-4fe9-b77e-9b6d224fe86b.png)
 
 4. Green colors
 
-![image](https://user-images.githubusercontent.com/37147511/175799569-102bdac1-8b8b-4b27-a03c-707f7638ec5f.png)
+![image](https://user-images.githubusercontent.com/37147511/175800165-5d49c07a-634e-46ee-a608-76a015c4c691.png)
 
 5. Cyan colors
 
-![image](https://user-images.githubusercontent.com/37147511/175799590-77496160-dffc-4d68-85df-d90ff0a3fbf3.png)
+![image](https://user-images.githubusercontent.com/37147511/175800159-ecf01545-414a-4bcf-b4b0-9bb1d9ca6793.png)
 
 6. Blue colors
 
-![image](https://user-images.githubusercontent.com/37147511/175799609-a97fca29-1d29-4c5e-b3e7-aae6444cef86.png)
+![image](https://user-images.githubusercontent.com/37147511/175800154-e7c2c845-92f0-406e-91d1-47cd5423fb05.png)
 
 7. Purple colors
 
-![image](https://user-images.githubusercontent.com/37147511/175799628-679fefc8-c92b-4c2a-a1bd-ac566a2c8204.png)
+![image](https://user-images.githubusercontent.com/37147511/175800150-d0030c8d-ba22-48f7-9f4d-65d7c02f8ac1.png)
 
 8. Pink colors
 
-![image](https://user-images.githubusercontent.com/37147511/175799640-9b6bc642-3f37-41cd-9e5d-efe739da43bd.png)
+![image](https://user-images.githubusercontent.com/37147511/175800149-e735e035-0f02-48d7-a6fc-f98d675c3246.png)
 
 9. Gray colors
 
-![image](https://user-images.githubusercontent.com/37147511/175799655-5f17adfb-1282-4aad-a500-d7e70927d32a.png)
+![image](https://user-images.githubusercontent.com/37147511/175800146-6d4af159-a47d-48ae-92b9-3ae4f088d82b.png)
 
 10. Brown colors
 
-![image](https://user-images.githubusercontent.com/37147511/175799672-3e7f4065-9221-4152-8905-c31663e2e898.png)
+![image](https://user-images.githubusercontent.com/37147511/175800132-ebe761f7-b40b-42bf-8030-10ad19e091f1.png)
+
 
