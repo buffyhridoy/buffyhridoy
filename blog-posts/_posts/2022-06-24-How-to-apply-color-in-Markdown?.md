@@ -14,6 +14,7 @@ accent_image:
 
 <style>
 c { color: cyan }
+d { color: #FF7F50 }  
 b { color: blue }
 v { color: violet }
 i { color: indigo }
@@ -40,7 +41,7 @@ g { color: Green }
 
 1. Red colors
 
-![image](https://user-images.githubusercontent.com/37147511/175799495-97f069b0-adb3-47f3-9e72-7dae296b97c2.png)
+![image](https://user-images.githubusercontent.com/37147511/175799879-31b1ede0-1a94-4ff6-9917-52a7b7cf603d.png)
 
 2. Orange colors
 
