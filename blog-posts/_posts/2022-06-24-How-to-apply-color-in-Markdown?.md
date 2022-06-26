@@ -24,17 +24,13 @@ r { color: Red }
 g { color: Green }
 </style>
 
-<c>How to Apply Color in Markdown?</c>
-
-<b>How to Apply Color in Markdown?</b>
-
-<v>How to Apply Color in Markdown?</v>
-
-<o>How to Apply Color in Markdown?</o>
-
-<r>How to Apply Color in Markdown?</r>
-
-<g>How to Apply Color in Markdown?</g>
+- <c>How to Apply Color in Markdown?</c>
+- <d>How to Apply Color in Markdown?</d>
+- <b>How to Apply Color in Markdown?</b>
+- <v>How to Apply Color in Markdown?</v>
+- <o>How to Apply Color in Markdown?</o>
+- <r>How to Apply Color in Markdown?</r>
+- <g>How to Apply Color in Markdown?</g>
 
 
 ### Here is some lists of colors
