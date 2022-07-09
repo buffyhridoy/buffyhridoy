@@ -458,28 +458,22 @@ evaluate_model(vgg_model, vgg_history, test_generator)
     
 
 
-![png](2022-06-26-oct-duke-all-final_files/2022-06-26-oct-duke-all-final_16_1.png)
+![image](https://user-images.githubusercontent.com/37147511/177905402-8afec67c-6c04-4f3a-a0c8-6a76ebb4860d.png)
 
 
-
-![png](2022-06-26-oct-duke-all-final_files/2022-06-26-oct-duke-all-final_16_2.png)
-
+![image](https://user-images.githubusercontent.com/37147511/177905437-7e4f6698-9cc3-475f-8359-588e625366db.png)
 
 
-![png](2022-06-26-oct-duke-all-final_files/2022-06-26-oct-duke-all-final_16_3.png)
+![image](https://user-images.githubusercontent.com/37147511/177905478-afbd83fe-79b2-4844-b6ff-22eb7dfc2222.png)
 
 
-
-![png](2022-06-26-oct-duke-all-final_files/2022-06-26-oct-duke-all-final_16_4.png)
-
+![image](https://user-images.githubusercontent.com/37147511/177905493-d5ec8305-5fb0-43e3-8f9d-c7d0d2b692e0.png)
 
 
-![png](2022-06-26-oct-duke-all-final_files/2022-06-26-oct-duke-all-final_16_5.png)
+![image](https://user-images.githubusercontent.com/37147511/177905507-8dfa840b-c559-4fc7-8404-b6ed4bbdd763.png)
 
 
-
-![png](2022-06-26-oct-duke-all-final_files/2022-06-26-oct-duke-all-final_16_6.png)
-
+![image](https://user-images.githubusercontent.com/37147511/177905523-9763a5b4-ff2b-4c33-a005-77baa9e685f5.png)
 
     ROC AUC score: 1.0
     
