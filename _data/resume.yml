@@ -7,7 +7,7 @@ basics:
   website: "https://buffyhridoy.github.io"
  
   summary: >
-    I'm 3rd Biomedical Engineering Student at Khulna University of Engineering & Technology. <br><br>
+    I'm 4th Biomedical Engineering Student at Khulna University of Engineering & Technology. <br><br>
     I have been working on Machine Learning for 3 years and Data Analysis for 1 years. <br><br>
     If you're interested in something within my skill-set, or would like to discuss something tech. related then, feel free to reach out.<br><br> 
     I'd love to talk.<br><br>
@@ -72,6 +72,7 @@ skills:
       - "Tableau"
       - "SQL"
       - "Excel"
+     
 languages:
   - language: "Python"
     fluency: "full-professional-proficiency"
