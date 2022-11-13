@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A paper rocked the deep learning world in December of 2015
+title: A Paper Rocked The Deep Learning World In December 2015
 description: >
   
 
