@@ -1,0 +1,34 @@
+---
+layout: post
+title: A paper rocked the deep learning world in December of 2015
+description: >
+  
+
+canonical_url: http://A paper rocked the deep learning world in December of 2015
+hide_image: false
+accent_color: '#4fb1ba'
+accent_image:
+  background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
+  overlay:    true
+---
+
+<p><div style="text-align: justify">A paper released in December 2015 sent shockwaves across the deep learning community. With more than 110,000 citations, this publication is recognized as one of the most important in contemporary deep learning.</div></p>
+
+<p><div style="text-align: justify">The title of this paper? Image Recognition Using Deep Residual Learning (aka, the ResNet paper). At the time, conventional thought was that neural networks would perform better with more layers included. However, researchers found that the precision of deep networks would rise to a saturation point and then level out. A strange effect was also noticed: When adding layers to a deep network, the training error would actually rise.</div></p>
+
+<p><div style="text-align: justify">This was principally brought about by two issues:</div></p>
+
+<p><div style="text-align: justify">1) Vanishing/exploding gradients</div></p>
+
+<p><div style="text-align: justify">2) The degradation problem</div></p>
+
+<p><div style="text-align: justify">The chain rule produces the vanishing/exploding gradients problem as a byproduct. For network weights, the chain rule doubles error gradients. Lower and smaller values will result from multiplying several numbers less than one. The value of the error gradients goes to zero as they approach the network's lower levels. As a result, updates to prior levels get less and smaller (not much learning happening).</div></p>
+
+<p><div style="text-align: justify">The opposite issue, known as the bursting gradient, arises when significant error gradients build up during training and cause significant modifications to model weights in the lower layers. The deterioration issue is surprising because overfitting is not the root of it.A side effect of the chain rule is the vanishing/exploding gradients problem. Error gradients for network weights are multiplied using the chain rule. When several numbers less than one are multiplied together, smaller and smaller values are produced. These error gradients' values tend to zero as they go closer to the network's lower levels. As a result, changes to earlier levels become increasingly less frequent (not much learning happening).</div></p>
+
+<p><div style="text-align: justify">Exploding gradients, which occur when significant error gradients build up during training and significantly update model weights in the preceding layers, are the opposite issue. Since overfitting is not to blame, the deterioration issue is unexpected. The training loss would reduce as networks went deeper but then increase again as more layers were added, according to the research. it is illogical... Because as the number of layers in your network grows, you would anticipate your training error to reduce, converge, and plateau out.</div></p>
+
+<p><div style="text-align: justify">Before this research was published, each of these problems posed a danger to the development of deep neural networks. These two bothersome issues, which beset the deep neural network designers, were resolved in a unique way by the ResNet paper:
+The Skip Connection You may send the activation value from a lower layer to a higher layer in a network by using skip connections, which are stored in residual blocks. Deep networks can learn the identity function thanks to skip connections. A deeper layer can perform as well as an earlier layer by learning the identity function, or it won't perform any worse.</div></p>
+
+<p><div style="text-align: justify">The end result is a smoother gradient flow, ensuring that crucial characteristics are kept in tact during training. We can now create networks that are deeper and deeper without having to worry about deterioration or vanishing/exploding gradients thanks to the advent of the skip link.</div></p>
