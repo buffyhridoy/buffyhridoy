@@ -12,6 +12,8 @@ accent_image:
   overlay:    true
 ---
 
+![resnet](https://user-images.githubusercontent.com/37147511/201532447-3ac14ba4-dd54-4952-b88c-d19e5afe6470.png)
+
 <p><div style="text-align: justify">A paper released in December 2015 sent shockwaves across the deep learning community. With more than 110,000 citations, this publication is recognized as one of the most important in contemporary deep learning.</div></p>
 
 <p><div style="text-align: justify">The title of this paper? Image Recognition Using Deep Residual Learning (aka, the ResNet paper). At the time, conventional thought was that neural networks would perform better with more layers included. However, researchers found that the precision of deep networks would rise to a saturation point and then level out. A strange effect was also noticed: When adding layers to a deep network, the training error would actually rise.</div></p>
@@ -31,4 +33,4 @@ accent_image:
 <p><div style="text-align: justify">Before this research was published, each of these problems posed a danger to the development of deep neural networks. These two bothersome issues, which beset the deep neural network designers, were resolved in a unique way by the ResNet paper:
 The Skip Connection You may send the activation value from a lower layer to a higher layer in a network by using skip connections, which are stored in residual blocks. Deep networks can learn the identity function thanks to skip connections. A deeper layer can perform as well as an earlier layer by learning the identity function, or it won't perform any worse.</div></p>
 
-<p><div style="text-align: justify">The end result is a smoother gradient flow, ensuring that crucial characteristics are kept in tact during training. We can now create networks that are deeper and deeper without having to worry about deterioration or vanishing/exploding gradients thanks to the advent of the skip link.</div></p>
+<p><div style="text-align: justify">The end result is a smoother gradient flow, ensuring that crucial characteristics are kept in tact during training. We can now create networks that are deeper and deeper without having to worry about deterioration or vanishing/exploding gradients thanks to the advent of the skip connection.</div></p>
